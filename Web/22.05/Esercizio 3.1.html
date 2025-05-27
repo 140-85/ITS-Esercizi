@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="risultato"></div>
+    <div id="media"></div>
+    <script>
+        let numero = prompt("Inserire il 1° numero");
+        numero = parseInt(numero);
+        console.log(numero);
+        let numero2 = prompt("Inserire il 2° numero");
+        numero = parseInt(numero2);
+        console.log(numero2);
+        let numero3 = prompt("Inserire il 3° numero");
+        numero = parseInt(numero3);
+        console.log(numero3);
+        let numero4 = prompt("Inserire il 4° numero");
+        numero = parseInt(numero4);
+        console.log(numero4);
+        let numero5 = prompt("Inserire il 5° numero");
+        numero = parseInt(numero5);
+        console.log(numero5);
+        document.getElementById("risultato").innerHTML = "La somma di " + numero + " + " + numero2 + " + " + numero3 + " + " + numero4 + " + " + numero5 + " + " + " è " + (numero + numero2 + numero3 + numero4 + numero5)
+        document.getElementById("media").innerHTML = "La media di " + numero + " + " + numero2 + " + " + numero3 + " + " + numero4 + " + " + numero5 + " + " + " è " + ((numero + numero2 + numero3 + numero4 + numero5) / 5)
+    </script>
+</body>
+</html>
